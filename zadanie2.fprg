@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="matma"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-02 05:12:11 AM"/>
+        <attribute name="created" value="bWF0bWE7REVTS1RPUC00NUo5RFE2OzIwMjItMTEtMDI7MDU6MDk6MzAgQU07MjgwNg=="/>
+        <attribute name="edited" value="bWF0bWE7REVTS1RPUC00NUo5RFE2OzIwMjItMTEtMDI7MDU6MTI6MTEgQU07MTsyOTA3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x" type="Integer" array="False" size=""/>
+            <do expression="x&lt;0">
+                <input variable="x"/>
+            </do>
+        </body>
+    </function>
+</flowgorithm>
