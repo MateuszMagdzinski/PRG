@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="s27556"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-02 06:01:38 AM"/>
+        <attribute name="created" value="czI3NTU2O0xBQjExMVctMTA7MjAyMi0xMC0yNDswODo0ODowMCBBTTsyMjI1"/>
+        <attribute name="edited" value="czI3NTU2O0xBQjExMVctMTA7MjAyMi0xMC0yNDswOToxMDowNSBBTTszOzIzMzA="/>
+        <attribute name="edited" value="bWF0bWE7REVTS1RPUC00NUo5RFE2OzIwMjItMTEtMDI7MDY6MDE6MzggQU07MTsyOTE1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x, suma" type="Integer" array="False" size=""/>
+            <assign variable="suma" expression="0"/>
+            <input variable="x"/>
+            <while expression="x&gt;0">
+                <assign variable="suma" expression="suma+(x%10)"/>
+                <assign variable="x" expression="x/10"/>
+            </while>
+            <output expression="suma" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
